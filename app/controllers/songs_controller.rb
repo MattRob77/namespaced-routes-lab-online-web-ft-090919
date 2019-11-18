@@ -1,4 +1,4 @@
-cclass SongsController < ApplicationController
+class SongsController < ApplicationController
   before_action :set_preferences, only: [:index, :new]
 
   def index
@@ -80,4 +80,4 @@ cclass SongsController < ApplicationController
   def set_preferences
     @preferences = Preference.first
   end
-end 
+end
