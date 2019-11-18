@@ -80,4 +80,3 @@ cclass SongsController < ApplicationController
   def set_preferences
     @preferences = Preference.first
   end
-end
